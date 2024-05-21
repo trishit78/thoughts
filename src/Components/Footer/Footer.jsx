@@ -7,7 +7,7 @@ const Footer = () => {
       <h1 className='text-7xl md:text-9xl text-center text-[#fbddc1] font-bold'>LET'S GET STARTED</h1>
       <div className=' md:mt-12 bg-[#1b181f] ml-[6%] mr-[6%]  md:flex'>
         <div className='md:w-[42%]'>
-          <div className=' mt-4 md:pt-16 pl-12'>
+          <div className=' mt-4 pt-4 md:pt-16 pl-12'>
             <h1 className='text-6xl text-[#fbddc1] font-bold'>FEEL FREE TO</h1>
             <h1 className='text-6xl text-[#fbddc1] font-bold'>CONTACT US</h1>
           </div>

@@ -87,7 +87,7 @@ const Card2 = ({photo,name, title, text, ig_count,category,img,
           <p>{share}</p>
           </div>
           </div>
-          <div className="text-sm font-semibold text-gray-600">{date}</div>
+          <div className="text-sm font-semibold mt-1 text-gray-600">{date}</div>
         </div>
 
 
