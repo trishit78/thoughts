@@ -6,7 +6,7 @@ import ButtonCard from '../Button/Button';
 const Hero = () => {
   return (
     <div className='bg-[#ffe0c2] pt-10'>
-      <div className='flex-col -space-y-10 ' >
+      <div className='flex-col  -space-y-6 md:-space-y-10 ' >
 
       
        <div className='text-[#995d29] text-center   kalam-regular text-4xl  '

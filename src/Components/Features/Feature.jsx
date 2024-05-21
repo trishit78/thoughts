@@ -81,10 +81,10 @@ const Feature = () => {
 
 
 
-            <div className='md:w-2/3 bg-white rounded-3xl'>
+            <div className='md:w-2/3 pb-8 bg-white rounded-3xl'>
                 <div className=' md:flex space-x-6' >
                     <img
-                    className=' ml-4 mt-6 rounded-2xl h-[18rem]'
+                    className=' ml-4 pt-6 md:pt-0 md:mt-6 rounded-2xl h-[18rem]'
                     src={img1} alt="" />
                     <div className='mt-6 pr-4'>
                         <p className='text-xl'>

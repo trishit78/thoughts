@@ -30,23 +30,22 @@ const RecentPosts = () => {
       </div>
 
       <div className="mt-16 pl-8 pr-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-{
-
-sampleData.map((e,index)=>{
-  console.log(e.ig_count);
-  return(
-    <Card key={index} photo={e.photo} name={e.name} title={e.title} text={e.text} ig_count={e.ig_count}
-    repost={e.repost}
-    share={e.share}
-    date={e.date}
-    /> 
-    
-  );
-})
-
-}
-
-        
+        {sampleData.map((e, index) => {
+          //console.log(e.ig_count);
+          return (
+            <Card
+              key={index}
+              photo={e.photo}
+              name={e.name}
+              title={e.title}
+              text={e.text}
+              ig_count={e.ig_count}
+              repost={e.repost}
+              share={e.share}
+              date={e.date}
+            />
+          );
+        })}
       </div>
       <div className="mt-12">
         <ButtonCard name={"VIEW MORE"} />
